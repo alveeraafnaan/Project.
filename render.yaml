@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: suitesops
+    runtime: node
+    rootDir: project
+    buildCommand: npm run build
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: DATABASE_PATH
+        value: /data/database.json
+    disk:
+      name: suitesops-data
+      mountPath: /data
+      sizeGB: 1
