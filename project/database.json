@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "manager",
+      "password": "manager123",
+      "name": "Jakkola Manisha",
+      "role": "Manager"
+    },
+    {
+      "id": 2,
+      "username": "frontdesk",
+      "password": "frontdesk123",
+      "name": "Gurrampally Ganesh",
+      "role": "Front Desk"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "number": "101",
+      "type": "Standard Single",
+      "rate": 1500,
+      "status": "Available"
+    },
+    {
+      "id": "102",
+      "number": "102",
+      "type": "Standard Single",
+      "rate": 1500,
+      "status": "Available"
+    },
+    {
+      "id": "103",
+      "number": "103",
+      "type": "Standard Single",
+      "rate": 1500,
+      "status": "Available"
+    },
+    {
+      "id": "201",
+      "number": "201",
+      "type": "Deluxe Double",
+      "rate": 2500,
+      "status": "Available"
+    },
+    {
+      "id": "202",
+      "number": "202",
+      "type": "Deluxe Double",
+      "rate": 2500,
+      "status": "Available"
+    },
+    {
+      "id": "203",
+      "number": "203",
+      "type": "Deluxe Double",
+      "rate": 2500,
+      "status": "Available"
+    },
+    {
+      "id": "301",
+      "number": "301",
+      "type": "Executive Suite",
+      "rate": 5000,
+      "status": "Available"
+    },
+    {
+      "id": "302",
+      "number": "302",
+      "type": "Executive Suite",
+      "rate": 5000,
+      "status": "Available"
+    },
+    {
+      "id": "401",
+      "number": "401",
+      "type": "Presidential Suite",
+      "rate": 10000,
+      "status": "Available"
+    }
+  ],
+  "guests": [],
+  "payments": [],
+  "inventory": [
+    {
+      "id": "inv_1",
+      "name": "Bedsheets & Linen",
+      "category": "Linen",
+      "quantity": 45,
+      "threshold": 15,
+      "unit": "pieces"
+    },
+    {
+      "id": "inv_2",
+      "name": "Bath Towels",
+      "category": "Linen",
+      "quantity": 30,
+      "threshold": 10,
+      "unit": "pieces"
+    },
+    {
+      "id": "inv_3",
+      "name": "Toiletries Kit",
+      "category": "Toiletries",
+      "quantity": 120,
+      "threshold": 30,
+      "unit": "kits"
+    },
+    {
+      "id": "inv_4",
+      "name": "Minibar Snacking Pack",
+      "category": "Minibar",
+      "quantity": 18,
+      "threshold": 20,
+      "unit": "packs"
+    },
+    {
+      "id": "inv_5",
+      "name": "Mineral Water Bottles (1L)",
+      "category": "Minibar",
+      "quantity": 150,
+      "threshold": 40,
+      "unit": "bottles"
+    },
+    {
+      "id": "inv_6",
+      "name": "Disinfectant Liquid",
+      "category": "Cleaning Supplies",
+      "quantity": 8,
+      "threshold": 5,
+      "unit": "liters"
+    },
+    {
+      "id": "inv_7",
+      "name": "All-purpose Cleaner",
+      "category": "Cleaning Supplies",
+      "quantity": 12,
+      "threshold": 5,
+      "unit": "bottles"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1781769033800_6keq",
+      "timestamp": "2026-06-18T07:50:33.800Z",
+      "user": "Jakkola Manisha",
+      "role": "Manager",
+      "action": "Login",
+      "details": "Logged in to system"
+    }
+  ]
+}
